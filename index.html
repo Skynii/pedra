@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Pedra Papel Tesoura</title>
+</head>
+
+<body>
+   <header>
+      <h1>Pedra, Papel, Tesoura</h1>
+   </header>
+
+   <main>
+
+
+      <section class="score-board">
+         <div class="tag" id="player">Player</div>
+         <div class="tag" id="pc">PC</div>
+         <span id="player-score">0</span>:<span id="pc-score">0</span>
+      </section>
+
+      <div class="result">
+         <p>Papel cobre Pedra. Você Ganha!</p>
+      </div>
+
+      <section class="escolhas">
+         <div class="escolha">
+            <img src="img/pedra.png" id="pedra" alt="Pedra">
+         </div>
+         <div class="escolha">
+            <img src="img/papel.png" id="papel" alt="Papel">
+         </div>
+         <div class="escolha">
+            <img src="img/scissors.png" id="tesoura" alt="Tesoura">
+         </div>
+      </section>
+
+      <p id="msg">Escolha sua jogada</p>
+   </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
